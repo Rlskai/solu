@@ -1,0 +1,140 @@
+[02:52:08.351] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:52:08.392] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:52:08.432] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:52:08.467] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:52:08.640] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:52:08.676] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:52:08.884] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:52:08.943] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:55:55.535] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:55:55.578] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:55:55.631] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:55:55.662] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:56:34.320] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:56:34.351] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:56:34.398] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:56:34.425] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:56:50.195] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:56:50.224] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:56:50.253] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
+[02:56:50.296] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/router-server.js
+- /Users/Ryan/IDD-skills-test/frontend/apollo-landing/node_modules/next/dist/server/lib/start-server.js
