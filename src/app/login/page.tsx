@@ -17,16 +17,16 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center bg-[#0f0826]">
+    <div className="relative min-h-screen flex items-center justify-center bg-[#0f0826] px-4">
       <Link
         href="/"
         data-testid="back-btn"
-        className="absolute top-6 left-6 flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm"
+        className="absolute top-4 left-4 sm:top-6 sm:left-6 flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm"
       >
         <ArrowLeft className="size-4" />
         Back
       </Link>
-      <div className="w-full max-w-md rounded-2xl border border-white/10 bg-white/5 p-8 shadow-xl backdrop-blur-sm">
+      <div className="w-full max-w-md rounded-2xl border border-white/10 bg-white/5 p-6 sm:p-8 shadow-xl backdrop-blur-sm">
         <div className="flex flex-col items-center gap-6">
           <h1 className="text-2xl font-bold text-white">Sign in to Solu</h1>
           <Button

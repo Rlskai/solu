@@ -138,7 +138,7 @@ export default function SolSummariseForm({ onSave }: { onSave?: () => void }) {
 
   return (
     <div className="flex w-full flex-col gap-4">
-      <div className="flex gap-3">
+      <div className="flex flex-col sm:flex-row gap-3">
         <input
           data-testid="video-url-input"
           type="text"

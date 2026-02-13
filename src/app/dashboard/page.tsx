@@ -15,10 +15,10 @@ export default async function DashboardPage() {
   return (
     <div className="flex min-h-screen">
       <Sidebar user={user} />
-      <main data-testid="main-content" className="flex-1 bg-[#0f0826] p-8">
+      <main data-testid="main-content" className="flex-1 bg-[#0f0826] p-4 pt-18 lg:p-8 lg:pt-8">
         <h1
           data-testid="dashboard-heading"
-          className="text-3xl font-bold text-white"
+          className="text-2xl md:text-3xl font-bold text-white"
         >
           Dashboard
         </h1>

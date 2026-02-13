@@ -4,8 +4,8 @@ import { Zap } from "lucide-react";
 
 export default function TracingSection() {
   return (
-    <section className="py-24 bg-white">
-      <div className="max-w-5xl mx-auto px-6">
+    <section className="py-12 sm:py-24 bg-white">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left - Text content */}
           <div>
@@ -15,9 +15,10 @@ export default function TracingSection() {
                 AI Workflows
               </span>
             </div>
-            <h2 className="text-3xl md:text-[2.25rem] font-bold text-gray-900 leading-tight mb-5">
+            <h2 className="text-2xl sm:text-3xl md:text-[2.25rem] font-bold text-gray-900 leading-tight mb-5">
               Automate creative pipelines
-              <br />
+              <br className="hidden sm:block" />
+              <span className="sm:hidden"> </span>
               from prompt to publish
             </h2>
             <p className="text-gray-500 text-[15px] leading-relaxed mb-5">
@@ -51,7 +52,7 @@ export default function TracingSection() {
                 {/* Pipeline step bars */}
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
-                    <span className="text-xs text-gray-500 w-28 text-right shrink-0 font-medium">
+                    <span className="text-xs text-gray-500 w-20 sm:w-28 text-right shrink-0 font-medium">
                       Prompt → Image
                     </span>
                     <div className="flex-1 h-6 bg-gray-100 rounded overflow-hidden relative">
@@ -65,7 +66,7 @@ export default function TracingSection() {
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className="text-xs text-gray-500 w-28 text-right shrink-0 font-medium">
+                    <span className="text-xs text-gray-500 w-20 sm:w-28 text-right shrink-0 font-medium">
                       Image → Caption
                     </span>
                     <div className="flex-1 h-6 bg-gray-100 rounded overflow-hidden relative">
@@ -79,7 +80,7 @@ export default function TracingSection() {
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className="text-xs text-gray-500 w-28 text-right shrink-0 font-medium">
+                    <span className="text-xs text-gray-500 w-20 sm:w-28 text-right shrink-0 font-medium">
                       Format → Export
                     </span>
                     <div className="flex-1 h-6 bg-gray-100 rounded overflow-hidden relative">

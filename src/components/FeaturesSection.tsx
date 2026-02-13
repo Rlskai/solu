@@ -107,8 +107,8 @@ function ImageGenTab() {
 
 function CopywritingTab() {
   return (
-    <div className="mt-8 bg-white rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100 p-8">
-      <div className="grid md:grid-cols-3 gap-6">
+    <div className="mt-8 bg-white rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100 p-4 sm:p-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
         {[
           { name: "Ad Copy", tone: "Persuasive", generated: "48K", percentage: 45 },
           { name: "Blog Posts", tone: "Informative", generated: "32K", percentage: 33 },
@@ -135,10 +135,10 @@ function BrandKitsTab() {
   return (
     <div className="mt-8 bg-white rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100 overflow-hidden">
       <div className="divide-y divide-gray-50">
-        <div className="grid grid-cols-[1fr_auto_auto_auto] gap-6 px-6 py-3 text-[11px] text-gray-400 font-medium uppercase tracking-wider border-b border-gray-100">
+        <div className="grid grid-cols-[1fr_auto_auto] sm:grid-cols-[1fr_auto_auto_auto] gap-3 sm:gap-6 px-4 sm:px-6 py-3 text-[11px] text-gray-400 font-medium uppercase tracking-wider border-b border-gray-100">
           <span>Brand Kit</span>
           <span className="text-right">Assets</span>
-          <span className="text-right">Last Edited</span>
+          <span className="text-right hidden sm:block">Last Edited</span>
           <span className="text-right">Status</span>
         </div>
         {[
@@ -148,10 +148,10 @@ function BrandKitsTab() {
           { name: "Social Media Pack", assets: "56", edited: "5d ago", status: "Active" },
           { name: "Holiday Collection", assets: "312", edited: "1w ago", status: "Archived" },
         ].map((kit) => (
-          <div key={kit.name} className="grid grid-cols-[1fr_auto_auto_auto] gap-6 px-6 py-3.5 items-center hover:bg-gray-50/80 transition-colors">
-            <span className="text-[13px] text-[#7c5cfc] font-medium">{kit.name}</span>
+          <div key={kit.name} className="grid grid-cols-[1fr_auto_auto] sm:grid-cols-[1fr_auto_auto_auto] gap-3 sm:gap-6 px-4 sm:px-6 py-3.5 items-center hover:bg-gray-50/80 transition-colors">
+            <span className="text-[13px] text-[#7c5cfc] font-medium truncate">{kit.name}</span>
             <span className="text-[13px] text-gray-600 tabular-nums text-right">{kit.assets}</span>
-            <span className="text-[13px] text-gray-600 tabular-nums text-right">{kit.edited}</span>
+            <span className="text-[13px] text-gray-600 tabular-nums text-right hidden sm:block">{kit.edited}</span>
             <span className="text-[13px] text-gray-600 tabular-nums text-right">{kit.status}</span>
           </div>
         ))}
@@ -162,8 +162,8 @@ function BrandKitsTab() {
 
 export default function FeaturesSection() {
   return (
-    <section className="py-24 bg-white">
-      <div className="max-w-5xl mx-auto px-6">
+    <section className="py-12 sm:py-24 bg-white">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
         {/* Section header */}
         <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 mb-4">
@@ -172,9 +172,10 @@ export default function FeaturesSection() {
               Creative Suite
             </span>
           </div>
-          <h2 className="text-3xl md:text-[2.5rem] font-bold text-gray-900 leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-[2.5rem] font-bold text-gray-900 leading-tight">
             One platform for every
-            <br />
+            <br className="hidden sm:block" />
+            <span className="sm:hidden"> </span>
             creative workflow
           </h2>
         </div>

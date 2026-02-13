@@ -19,7 +19,7 @@ const stars = [
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-b from-[#0f0826] via-[#1a0e45] to-[#251260] pt-32 pb-28 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-[#0f0826] via-[#1a0e45] to-[#251260] pt-24 pb-20 sm:pt-32 sm:pb-28 overflow-hidden">
       {/* Starfield */}
       <div className="absolute inset-0">
         {stars.map((star, i) => (
@@ -39,7 +39,7 @@ export default function Hero() {
       {/* Radial glow behind heading */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-gradient-to-r from-[#7c5cfc]/10 to-[#e879f9]/10 rounded-full blur-[100px]" />
 
-      <div className="relative max-w-4xl mx-auto px-6 text-center">
+      <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 mb-5">
           <span className="text-[#c4a8ff] text-[11px] font-bold tracking-[0.25em] uppercase">
@@ -63,9 +63,10 @@ export default function Hero() {
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-bold text-white leading-[1.15] tracking-[-0.02em] mb-6">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold text-white leading-[1.15] tracking-[-0.02em] mb-6">
           Turn your wildest ideas into
-          <br />
+          <br className="hidden sm:block" />
+          <span className="sm:hidden"> </span>
           stunning creative reality.
         </h1>
 
@@ -77,7 +78,7 @@ export default function Hero() {
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex items-center justify-center gap-5">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
           <Link href="/login">
             <Button
               size="lg"

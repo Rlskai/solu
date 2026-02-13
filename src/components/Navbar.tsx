@@ -1,13 +1,16 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Sparkles } from "lucide-react";
+import { ChevronDown, Sparkles, Menu, X } from "lucide-react";
 
 export default function Navbar() {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0f0826]/90 backdrop-blur-md border-b border-white/10">
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-8">
           <Link href="/" className="flex items-center gap-2">
@@ -19,8 +22,8 @@ export default function Navbar() {
             </span>
           </Link>
 
-          {/* Nav Links */}
-          <div className="hidden md:flex items-center gap-1">
+          {/* Nav Links — desktop */}
+          <div className="hidden xl:flex items-center gap-1">
             {["Products", "Solutions", "Pricing", "Resources", "Enterprise"].map(
               (item) => (
                 <button
@@ -35,12 +38,12 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Right side */}
-        <div className="flex items-center gap-3">
-          <button className="text-white/70 hover:text-white text-sm font-medium px-3 py-2 transition-colors hidden md:block">
+        {/* Right side — desktop */}
+        <div className="hidden lg:flex items-center gap-3">
+          <button className="text-white/70 hover:text-white text-sm font-medium px-3 py-2 transition-colors">
             Blog
           </button>
-          <button className="text-white/70 hover:text-white text-sm font-medium px-3 py-2 transition-colors hidden md:block">
+          <button className="text-white/70 hover:text-white text-sm font-medium px-3 py-2 transition-colors">
             Contact
           </button>
           <Link href="/login">
@@ -61,7 +64,63 @@ export default function Navbar() {
             </Button>
           </Link>
         </div>
+
+        {/* Mobile CTA + hamburger */}
+        <div className="flex lg:hidden items-center gap-2">
+          <Link href="/login">
+            <Button
+              size="sm"
+              className="bg-gradient-to-r from-[#7c5cfc] to-[#e879f9] hover:opacity-90 text-white text-xs px-3"
+            >
+              Start Creating
+            </Button>
+          </Link>
+          <button
+            onClick={() => setMobileOpen(!mobileOpen)}
+            className="text-white/70 hover:text-white p-2"
+            aria-label="Toggle menu"
+          >
+            {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
+        </div>
       </div>
+
+      {/* Mobile dropdown */}
+      {mobileOpen && (
+        <div className="lg:hidden border-t border-white/10 bg-[#0f0826]/95 backdrop-blur-md px-4 pb-4 pt-2">
+          <div className="flex flex-col gap-1">
+            {["Products", "Solutions", "Pricing", "Resources", "Enterprise"].map(
+              (item) => (
+                <button
+                  key={item}
+                  className="text-white/70 hover:text-white text-sm font-medium px-3 py-2.5 rounded-md transition-colors flex items-center justify-between"
+                >
+                  {item}
+                  <ChevronDown className="w-3 h-3 opacity-60" />
+                </button>
+              )
+            )}
+            <div className="border-t border-white/10 mt-2 pt-2 flex flex-col gap-1">
+              <button className="text-white/70 hover:text-white text-sm font-medium px-3 py-2.5 text-left rounded-md transition-colors">
+                Blog
+              </button>
+              <button className="text-white/70 hover:text-white text-sm font-medium px-3 py-2.5 text-left rounded-md transition-colors">
+                Contact
+              </button>
+            </div>
+            <div className="border-t border-white/10 mt-2 pt-3">
+              <Link href="/login" onClick={() => setMobileOpen(false)}>
+                <Button
+                  variant="outline"
+                  className="w-full border-white/20 text-white bg-transparent hover:bg-white/10 hover:text-white text-sm"
+                >
+                  Sign In
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

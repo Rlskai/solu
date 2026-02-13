@@ -4,8 +4,8 @@ import { Palette } from "lucide-react";
 
 export default function DeprecationsSection() {
   return (
-    <section className="py-24 bg-[#fafafa]">
-      <div className="max-w-5xl mx-auto px-6">
+    <section className="py-12 sm:py-24 bg-[#fafafa]">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left - Card mockup */}
           <div className="relative">
@@ -65,9 +65,10 @@ export default function DeprecationsSection() {
                 Brand Consistency
               </span>
             </div>
-            <h2 className="text-3xl md:text-[2.25rem] font-bold text-gray-900 leading-tight mb-5">
+            <h2 className="text-2xl sm:text-3xl md:text-[2.25rem] font-bold text-gray-900 leading-tight mb-5">
               Keep every asset perfectly
-              <br />
+              <br className="hidden sm:block" />
+              <span className="sm:hidden"> </span>
               on-brand, automatically
             </h2>
             <p className="text-gray-500 text-[15px] leading-relaxed mb-5">
