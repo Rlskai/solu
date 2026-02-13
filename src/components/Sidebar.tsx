@@ -87,7 +87,7 @@ export default function Sidebar({ user }: SidebarProps) {
   return (
     <>
       {/* Mobile top bar */}
-      <div className="lg:hidden fixed top-0 left-0 right-0 z-40 flex h-14 items-center justify-between border-b border-white/10 bg-[#0f0826] px-4">
+      <div className="xl:hidden fixed top-0 left-0 right-0 z-40 flex h-14 items-center justify-between border-b border-white/10 bg-[#0f0826] px-4">
         <div className="flex items-center gap-2">
           <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-[#7c5cfc] to-[#e879f9] flex items-center justify-center">
             <Sparkles className="w-3.5 h-3.5 text-white" />
@@ -106,7 +106,7 @@ export default function Sidebar({ user }: SidebarProps) {
       {/* Mobile overlay */}
       {open && (
         <div
-          className="lg:hidden fixed inset-0 z-30 bg-black/50"
+          className="xl:hidden fixed inset-0 z-30 bg-black/50"
           onClick={() => setOpen(false)}
         />
       )}
@@ -114,7 +114,7 @@ export default function Sidebar({ user }: SidebarProps) {
       {/* Mobile drawer */}
       <aside
         data-testid="sidebar"
-        className={`fixed top-14 left-0 bottom-0 z-30 w-64 flex-col border-r border-white/10 bg-[#0f0826] transition-transform lg:hidden ${
+        className={`fixed top-14 left-0 bottom-0 z-30 w-64 flex-col border-r border-white/10 bg-[#0f0826] transition-transform xl:hidden ${
           open ? "translate-x-0" : "-translate-x-full"
         } flex`}
       >
@@ -124,7 +124,7 @@ export default function Sidebar({ user }: SidebarProps) {
       {/* Desktop sidebar */}
       <aside
         data-testid="sidebar"
-        className="hidden lg:flex min-h-screen w-64 flex-col border-r border-white/10 bg-[#0f0826]"
+        className="hidden xl:flex min-h-screen w-64 flex-col border-r border-white/10 bg-[#0f0826]"
       >
         {sidebarContent}
       </aside>

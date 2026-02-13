@@ -96,7 +96,7 @@ export default function SolSummariseContent() {
   }
 
   return (
-    <div className="mt-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-5 lg:gap-6 xl:gap-8">
+    <div className="mt-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-8">
       <div className="min-w-0">
         <SolSummariseForm onSave={() => setRefreshKey((k) => k + 1)} />
       </div>
