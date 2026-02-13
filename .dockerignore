@@ -1,0 +1,17 @@
+node_modules
+.next
+.git
+.gitignore
+.env*.local
+README.md
+Dockerfile
+.dockerignore
+npm-debug.log*
+test-results
+tests
+playwright.config.ts
+logs
+dashboard-sidebar
+google-oauth
+mongo-summaries
+sol-summarise
