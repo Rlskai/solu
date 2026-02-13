@@ -37,7 +37,11 @@ yarn-error.log*
 # docker & deploy (contain secrets)
 Dockerfile
 deploy.sh
+deploy.ps1
 sample-deploy.md
+
+# binaries
+yt-dlp.exe
 
 # vercel
 .vercel
