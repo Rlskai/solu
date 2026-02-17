@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
     });
 
     const completion = await openai.chat.completions.create({
-      model: "llama-3.3-70b",
+      model: "llama3.1-8b",
       messages: [
         {
           role: "system",

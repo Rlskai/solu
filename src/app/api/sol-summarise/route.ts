@@ -2,8 +2,11 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { execSync } from "child_process";
 import { readFileSync, unlinkSync, existsSync, readdirSync } from "fs";
+import { homedir } from "os";
 import { createClient } from "@deepgram/sdk";
 import OpenAI from "openai";
+
+const YTDLP = `${homedir()}/bin/yt-dlp`;
 
 export async function POST(request: NextRequest) {
   const summariserPrompt = `STRICT RULES:
@@ -61,7 +64,7 @@ Tone: Be highly objective, clear, and concise. Omit fluff, filler words, and rep
         let videoTitle = "";
         try {
           videoTitle = execSync(
-            `yt-dlp --print title "${url}"`,
+            `${YTDLP} --print title "${url}"`,
             { timeout: 30000, stdio: "pipe" }
           ).toString().trim();
         } catch {
@@ -69,7 +72,7 @@ Tone: Be highly objective, clear, and concise. Omit fluff, filler words, and rep
         }
         try {
           execSync(
-            `yt-dlp -f bestaudio -o "/tmp/${filePrefix}.%(ext)s" "${url}"`,
+            `${YTDLP} -f bestaudio -o "/tmp/${filePrefix}.%(ext)s" "${url}"`,
             { timeout: 120000, stdio: "pipe" }
           );
         } catch {
@@ -124,7 +127,7 @@ Tone: Be highly objective, clear, and concise. Omit fluff, filler words, and rep
         });
 
         const completion = await openai.chat.completions.create({
-          model: "llama-3.3-70b",
+          model: "llama3.1-8b",
           messages: [
             {
               role: "system",
